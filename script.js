@@ -3,13 +3,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebas
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCD0tvWyj0SWWxKuo5VdN0-b33bUEcqzjE",
-  authDomain: "fir-5bec0.firebaseapp.com",
-  projectId: "fir-5bec0",
-  storageBucket: "fir-5bec0.firebasestorage.app",
-  messagingSenderId: "897328009638",
-  appId: "1:897328009638:web:e77a2ffbca6f0d4152bf67"
-};
+ apiKey: "AIzaSyDZcNkMTKHiGk8EpgmXagP4oDzsTHO1bPM",
+    authDomain: "goki-8873c.firebaseapp.com",
+    projectId: "goki-8873c",
+    storageBucket: "goki-8873c.firebasestorage.app",
+    messagingSenderId: "336805574059",
+    appId: "1:336805574059:web:47538c3952c49573de8eee",
+    measurementId: "G-MNN7Z026ET"
+  };
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
